@@ -3,7 +3,7 @@ SMODS.Joker{ --purplerave
     key = "purplerave",
     config = {
         extra = {
-            chips0 = 20,
+            chips0 = 10,
             respect = 0
         }
     },
@@ -11,14 +11,14 @@ SMODS.Joker{ --purplerave
         ['name'] = 'purplerave',
         ['text'] = {
             [1] = 'At start of a Small Blind, create a {C:attention}yellowrave{} Joker',
-            [2] = '{C:blue}+20 Chips{}'
+            [2] = '{C:blue}+10 Chips{}'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'
         }
     },
     pos = {
-        x = 5,
+        x = 0,
         y = 0
     },
     display_size = {
@@ -38,7 +38,7 @@ SMODS.Joker{ --purplerave
     calculate = function(self, card, context)
         if context.cardarea == G.jokers and context.joker_main  then
             return {
-                chips = 20
+                chips = 10
             }
         end
         if context.setting_blind  then

@@ -3,7 +3,7 @@ SMODS.Joker{ --yellowrave
     key = "yellowrave",
     config = {
         extra = {
-            mult0 = 20,
+            mult0 = 10,
             respect = 0
         }
     },
@@ -11,14 +11,14 @@ SMODS.Joker{ --yellowrave
         ['name'] = 'yellowrave',
         ['text'] = {
             [1] = 'At start of a Big Blind, create a {C:purple}purplerave{} Joker',
-            [2] = '{C:red}+20 Mult{}'
+            [2] = '{C:red}+10 Mult{}'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'
         }
     },
     pos = {
-        x = 6,
+        x = 1,
         y = 0
     },
     display_size = {
@@ -38,7 +38,7 @@ SMODS.Joker{ --yellowrave
     calculate = function(self, card, context)
         if context.cardarea == G.jokers and context.joker_main  then
             return {
-                mult = 20
+                mult = 10
             }
         end
         if context.setting_blind  then
