@@ -1,2 +1,2 @@
 # basementmod
-A dumb Balatro mod made by dumb idiots cause we silly
+Balatro: Basement Edition is a mod pack that is full of unfunny in-jokes that no one cares about, might be unbalanced (lol) and might never see the light of day. This is just a side project for funsies and not a serious endeavor. Just a love letter to my friends cus I love 'em. Some of these Jokers are remixes of vanilla Jokers, and generally uninspiring (generally just XChips versions of XMult)
