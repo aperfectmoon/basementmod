@@ -1,0 +1,18 @@
+{
+  "id": "basement",
+  "name": "Basement Mod",
+  "author": [
+    "apm"
+  ],
+  "description": "Unfunny in-jokes that no one will get and everyone will point and laugh at.",
+  "prefix": "basement",
+  "main_file": "main.lua",
+  "version": "0.0.1",
+  "priority": 0,
+  "badge_colour": "ff0094",
+  "badge_text_colour": "FFFFFF",
+  "display_name": "Basement",
+  "dependencies": [
+    "Steamodded (>=1.0.0~BETA-0827c)"
+  ]
+}
